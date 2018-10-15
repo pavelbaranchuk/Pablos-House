@@ -30,12 +30,64 @@ authorLink.listen("click", () => {
 });
 
 const onButton = MDCRipple.attachTo(document.querySelector(".light__onOff"));
-const image = document.querySelector(".mdc__color");
-const urlWhite = "http://localhost:8080/assets/img/white.png";
-const urlYellow = "http://localhost:8080/assets/img/yellow.png";
+const image = document.querySelector(".mdc__color-yellow");
 
 onButton.listen("click", () => {
-  image.src === urlWhite
-    ? (image.src = image.src.replace(urlWhite, urlYellow))
-    : (image.src = image.src.replace(urlYellow, urlWhite));
+  image.style.opacity === ""
+    ? (image.style.opacity = "1")
+    : (image.style.opacity = "");
+});
+
+const volumeFirst = MDCRipple.attachTo(document.querySelector(".volume__1"));
+
+volumeFirst.listen("mouseover", () => {
+  image.style.opacity = "0.1";
+});
+
+const volume2 = MDCRipple.attachTo(document.querySelector(".volume__2"));
+
+volume2.listen("mouseover", () => {
+  image.style.opacity = "0.2";
+});
+
+const volume3 = MDCRipple.attachTo(document.querySelector(".volume__3"));
+
+volume3.listen("mouseover", () => {
+  image.style.opacity = "0.35";
+});
+
+const volume4 = MDCRipple.attachTo(document.querySelector(".volume__4"));
+
+volume4.listen("mouseover", () => {
+  image.style.opacity = "0.45";
+});
+
+const volume5 = MDCRipple.attachTo(document.querySelector(".volume__5"));
+
+volume5.listen("mouseover", () => {
+  image.style.opacity = "0.6";
+});
+
+const volume6 = MDCRipple.attachTo(document.querySelector(".volume__6"));
+
+volume6.listen("mouseover", () => {
+  image.style.opacity = "0.7";
+});
+
+const volume7 = MDCRipple.attachTo(document.querySelector(".volume__7"));
+
+volume7.listen("mouseover", () => {
+  image.style.opacity = "0.8";
+});
+
+const volume8 = MDCRipple.attachTo(document.querySelector(".volume__8"));
+
+volume8.listen("mouseover", () => {
+  image.style.opacity = "0.9";
+});
+
+const volume9 = MDCRipple.attachTo(document.querySelector(".volume__9"));
+
+volume9.listen("mouseover", () => {
+  image.style.opacity = "1";
 });
