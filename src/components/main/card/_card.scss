@@ -1,0 +1,92 @@
+@import "@material/card/mdc-card";
+
+.card__tv-image {
+  background-image: url("../assets/img/tv-wrapper.png");
+  max-height: 25rem;
+  width: auto;
+  background-position: top;
+}
+
+.mdc-hidden {
+  display: none;
+}
+
+.mdc-card {
+  position: relative;
+  &-second {
+    padding: 1rem;
+    height: 25rem;
+  }
+  &__light {
+    max-height: 25rem;
+    width: auto;
+    background-position: top;
+  }
+  &__image {
+    height: 25rem;
+  }
+}
+
+.card {
+  font-family: url("../assets/fonts/OpenSans.ttf");
+  max-height: 25rem;
+  &__title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+  }
+
+  &__paragraph {
+    line-height: normal;
+  }
+
+  &__coffee {
+    text-align: center;
+    max-height: 25rem;
+  }
+
+  &__light {
+    background-image: url("../assets/img/white_light.png");
+    background-repeat: no-repeat;
+    background-size: auto 25rem;
+    background-position: center;
+    text-align: center;
+    max-height: 25rem;
+  }
+
+  &__image {
+    max-height: 25rem;
+    &-coffee {
+      padding: 1rem;
+      height: 23rem;
+    }
+  }
+
+  &__brand {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+    line-height: 0;
+  }
+
+  &__description {
+    font-size: 1rem;
+    padding-left: 1rem;
+  }
+
+  &__test {
+    height: 22rem;
+    width: 30rem;
+    background-position: top;
+    top: 2rem;
+    left: 2rem;
+    position: absolute;
+  }
+}
+
+.mdc-button-card {
+  margin: 0 2rem 1rem 2rem;
+}
+
+.mdc__color-yellow {
+  opacity: 0.5;
+}
