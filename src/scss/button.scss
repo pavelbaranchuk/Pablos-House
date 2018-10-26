@@ -1,0 +1,92 @@
+@import "@material/button/mdc-button";
+@import "@material/fab/mdc-fab";
+@import "@material/drawer/mdc-drawer";
+@import "@material/list/mdc-list";
+
+.button-wrapper {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+  &__start {
+    display: flex;
+    max-width: 50rem;
+    margin: 10vh 20vw 0 20vw;
+    flex-direction: column;
+  }
+}
+
+.start__image {
+  max-width: 50rem;
+  align-self: center;
+}
+
+.mdc-button-general {
+  margin-top: 2rem;
+  &__wrapper {
+    display: flex;
+    align-self: center;
+  }
+  @include mdc-button-filled-accessible(#4648cf);
+}
+
+.mdc-button {
+  width: 250px;
+
+  &-onoff {
+    margin-top: 2rem;
+    width: 100%;
+    @include mdc-button-filled-accessible(#2426bb);
+  }
+
+  &-left {
+    margin-right: 5vw;
+    @include mdc-button-filled-accessible(#4648cf);
+  }
+
+  &-right {
+    margin-right: 5vw;
+    @include mdc-button-filled-accessible(#4648cf);
+  }
+
+  &-delete {
+    @include mdc-button-filled-accessible(#b45860);
+    margin-bottom: 2rem;
+    &-coffee {
+      margin-top: 2rem;
+    }
+  }
+
+  &-add {
+    @include mdc-fab-accessible(#8b0000);
+    height: 2rem;
+    width: 4rem;
+    top: 6rem;
+    left: 7.2rem;
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+
+  &-channel {
+    width: 3rem;
+    height: 2rem;
+    @include mdc-button-filled-accessible(#008116);
+    &-up {
+      @include mdc-button-filled-accessible(#008116);
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 2.5rem;
+      border-radius: 0.3rem;
+      margin: 0 1.5rem 0.5rem 0;
+    }
+    &-down {
+      @include mdc-button-filled-accessible(#008116);
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 2.5rem;
+      border-radius: 0.3rem;
+      margin: 0 1.5rem 0.5rem 0;
+    }
+  }
+}

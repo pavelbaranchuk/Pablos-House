@@ -1,0 +1,12 @@
+@import "@material/dialog/mdc-dialog";
+
+.mdc-button-dialog {
+  width: 100%;
+}
+
+.dialog {
+  &__image {
+    height: 20rem;
+    width: auto;
+  }
+}

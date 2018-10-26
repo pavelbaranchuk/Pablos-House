@@ -1,6 +1,6 @@
-# 🖥 Pablos-House
+# 🖥 Smart Home
 
-Smart House with graphic
+Fashion website markup
 
 ### 🚀 Getting Started
 
@@ -23,7 +23,3 @@ then go to http://localhost:3000
 ```
 npx webpack
 ```
-
-## GitHub Page:
-
-https://pavelbaranchuk.github.io/Pablos-House/
