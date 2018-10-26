@@ -5639,7 +5639,7 @@
                 r.classList.add("mdc-card__image", "mdc__color-yellow"),
                   r.setAttribute(
                     "src",
-                    "../assets/img/yellow_light_cropped.png"
+                    "./assets/img/yellow_light_cropped.png"
                   );
                 let o = document.createElement("div");
                 o.classList.add(
@@ -5818,7 +5818,7 @@
                 z.classList.add("control__wrapper", "control__light");
                 let W = document.createElement("img");
                 W.classList.add("control__image"),
-                  W.setAttribute("src", "../assets/img/remote_control.png");
+                  W.setAttribute("src", "./assets/img/remote_control.png");
                 let Y = document.createElement("button");
                 Y.classList.add("light__onOff", "mdc-fab", "mdc-button-add");
                 let X = document.createElement("i");
@@ -5893,7 +5893,7 @@
                     "Are you sure you want to delete this device?");
                 let _t = document.createElement("img");
                 _t.classList.add("dialog__image"),
-                  _t.setAttribute("src", "../assets/img/nooo.png");
+                  _t.setAttribute("src", "./assets/img/nooo.png");
                 let mt = document.createElement("footer");
                 mt.classList.add("mdc-dialog__actions");
                 let pt = document.createElement("button");
@@ -6085,7 +6085,7 @@
                 F.classList.add("control__wrapper", "control__tv");
                 let M = document.createElement("img");
                 M.classList.add("control__image"),
-                  M.setAttribute("src", "../assets/img/remote_control.png");
+                  M.setAttribute("src", "./assets/img/remote_control.png");
                 let k = document.createElement("button");
                 k.classList.add("tv__onOff", "mdc-fab", "mdc-button-add");
                 let H = document.createElement("i");
@@ -6174,7 +6174,7 @@
                     "Are you sure you want to delete this device?");
                 let at = document.createElement("img");
                 at.classList.add("dialog__image"),
-                  at.setAttribute("src", "../assets/img/nooo.png");
+                  at.setAttribute("src", "./assets/img/nooo.png");
                 let rt = document.createElement("footer");
                 rt.classList.add("mdc-dialog__actions");
                 let ot = document.createElement("button");
@@ -6237,7 +6237,7 @@
                 a.classList.add("card__coffee");
                 let r = document.createElement("img");
                 r.classList.add("card__image", "card__image-coffee"),
-                  r.setAttribute("src", "../assets/img/coffee.png");
+                  r.setAttribute("src", "./assets/img/coffee.png");
                 let o = document.createElement("div");
                 o.classList.add(
                   "mdc-card",
@@ -6426,7 +6426,7 @@
                     "Are you sure you want to delete this device?");
                 let Q = document.createElement("img");
                 Q.classList.add("dialog__image"),
-                  Q.setAttribute("src", "../assets/img/nooo.png");
+                  Q.setAttribute("src", "./assets/img/nooo.png");
                 let Z = document.createElement("footer");
                 Z.classList.add("mdc-dialog__actions");
                 let J = document.createElement("button");
@@ -6611,7 +6611,7 @@
           j.classList.add("author__title"), (j.innerText = "Made by Pavlo");
           let Q = document.createElement("img");
           Q.classList.add("author__image"),
-            Q.setAttribute("src", "../assets/img/ava.jpg");
+            Q.setAttribute("src", "./assets/img/ava.jpg");
           let Z = document.createElement("p");
           Z.classList.add("author__info"),
             (Z.innerText = "©2018 Smart House. All Rights Reserved."),
@@ -6640,7 +6640,7 @@
           at.classList.add("button-wrapper__start");
           let rt = document.createElement("img");
           rt.classList.add("start__image"),
-            rt.setAttribute("src", "../assets/img/smart.png");
+            rt.setAttribute("src", "./assets/img/smart.png");
           let ot = document.createElement("div");
           ot.classList.add(
             "mdc-text-field",
